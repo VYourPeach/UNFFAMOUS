@@ -1,0 +1,104 @@
+*
+{
+    background-color: #ECEFF1;
+    color: #18212D;
+}
+main
+{
+    height: 850px;
+    padding: 60px 0;
+}
+.form_title h2
+{
+    margin-left:224px;
+    font-weight:700;
+    font-size:37px;
+}
+.form_container
+{
+    margin-left: 260px;
+    max-width:870px;
+    display: inline-block;
+}
+.form_Onece
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.form_input
+{
+    border:none;
+    background:none;
+    border-bottom:.5px solid #C4C4C4;
+    margin-bottom:60px;
+    min-width:410px;
+    font-weight:100;
+    font-size:13px;
+    color:#18212D
+}
+.form input::-webkit-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}
+.form input:-ms-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}
+.form input::-ms-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}
+.form input::placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}
+.btn
+{
+    margin-top:20px;
+    padding:10px 56px;
+    border:none;
+    background-color:#466FA6;
+    color: #ECEFF1
+}
+.text
+{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    margin-left: 224px;
+}
+.text p
+{
+    margin:30px 0 70px 0;
+    font-weight:100;
+    font-size:15px;
+    color:#18212D
+}
+.close
+{
+  width: 100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 124px;
+  margin-top: 30px;
+}
+
+.close p
+{
+    font-size: 13px;
+    font-weight:100;
+    padding-right: 5px;
+}
+.footer_date_l
+{
+    font-weight:300;
+    font-size:12px;
+    color:#18212D;
+    margin-left:224px;
+    padding-top: 30px;
+}
+.close button
+{
+    border: 0;
+}
+.form_Onece p
+{
+    font-size: 13px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+.message
+{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(198, 113, 113);
+}

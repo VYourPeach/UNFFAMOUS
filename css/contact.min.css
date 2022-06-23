@@ -1,0 +1,53 @@
+header h1
+{
+    font-weight:600;
+    font-size:68px;
+    padding-top: 140px;
+}
+
+body{background-color:#ECEFF1}
+
+.table
+{padding:170px 0;
+    background:#ECEFF1;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+.oneDisplay_title_text
+{
+    text-align:center;
+    background-color: #ECEFF1
+}
+
+.oneDisplay_inner
+{
+    background-color: #ECEFF1;
+}
+
+.table_column1{border-bottom:.5px solid #C4C4C4}.table_column2{border-bottom:.5px solid #C4C4C4;border-left:.5px solid #C4C4C4}.table_column3{border-bottom:.5px solid #C4C4C4;border-left:.5px solid #C4C4C4}.table .last{border-bottom:none}.table table{width:1080px;border:none;text-align:center}.table th{color:#000}.table td{font-weight:100;font-size:17px;height:100px;width:360px;color:#000}.table_first_row{text-align:left;height:150px}.table_first_row img{display:block;margin:auto auto}.table_second_row td{height:50px}.form{background:#ECEFF1;padding-bottom:200px}.form_title h2{margin-left:224px;font-weight:700;font-size:37px;color:#000}.form_container{margin:0 auto;max-width:870px}.form_container .text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.form_container .text p{margin:90px 0;font-weight:100;font-size:17px;color:#000}.form_input{border:none;background:none;border-bottom:.5px solid #C4C4C4;margin-bottom:60px;min-width:410px;font-weight:100;font-size:13px;color:#000}.form input::-webkit-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}.form input:-ms-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}.form input::-ms-input-placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}.form input::placeholder{font-weight:100;font-size:13px;color:#000;padding:10px}.form_Onece{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.form_check{display:-webkit-box;display:-ms-flexbox;display:flex}
+.form_check input
+{
+    background: transparent
+}
+.form_check p
+{
+    margin-left:20px;font-weight:100;font-size:12px;color:#000}
+.form .btn
+{
+    margin-top:20px;
+    padding:10px 56px;
+    border:none;
+    background-color:#466FA6;
+    color: #ECEFF1
+}
+.message
+{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(198, 113, 113);
+}
+/*# sourceMappingURL=contact.min.css.map */

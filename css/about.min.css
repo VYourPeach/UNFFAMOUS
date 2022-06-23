@@ -1,0 +1,45 @@
+body{background:#ECEFF1}
+/*# sourceMappingURL=about.min.css.map */
+*
+{
+    color:#18212D
+}
+.oneDisplay_title_text{text-align:center} /*для позиционирования заголовка по центру*/
+.oneDisplay_wrapper
+{
+    min-height:auto
+}
+.oneDisplay_menu .oneDisplay_nav ul li a
+{
+    color:#18212D
+}
+.oneDisplay_btn
+{
+    color:#18212D;
+}
+header h1
+{
+    font-weight:600;
+    font-size:68px;
+    padding-top: 140px;
+}
+.aboutTheatre_container{padding:198px 0 50px 0}.aboutTheatre_text h2{margin-top:100px}.mis{margin:195px 0}.mis_title{text-align:left;margin-left:225px}.mis_title h2{font-weight:700;font-size:37px;color:#000}.mis_text{max-width:700px;margin:0 auto;margin-top:105px}.mis_text p{text-align:center;font-weight:100;font-size:17px;color:#000}.actor p{margin-top:100px;font-weight:100;font-size:17px;color:#000}.actor .text{text-align:center;margin:200px auto 80px auto;max-width:850px;font-weight:100;font-size:17px;color:#000}.aboutTheatre{margin-bottom:200px}.aboutTheatre .title{margin:50px 0 0 230px;color:#000;font-weight:700;font-size:37px}.aboutTheatre_text{max-width:400px}.aboutTheatre_text p{font-weight:100;font-size:16px}
+.aboutTheatre_img h2
+{
+    margin-top:10px;
+    color:#000;
+    font-weight:100;
+    font-size:15px
+}
+.aboutTheatre_img img
+{
+    margin-top:0px
+}
+.footer_nav button
+{
+    color: #FFF;
+}
+.footer_container h2
+{
+    color: #FFF;
+}

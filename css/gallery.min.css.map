@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,OAAO,CAChB,UAAU,CAAE,OAAO,CAIC,AAPxB,AAII,MAJE,CAIF,EAAE,AAAC,CACC,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,IAAI,CAAG,AACtB,AAAA,WAAW,AAAC,CACR,cAAc,CAAE,KAAK,CAAG",
+    "sources": [
+        "../sass/gallery.sass"
+    ],
+    "names": [],
+    "file": "gallery.min.css"
+}

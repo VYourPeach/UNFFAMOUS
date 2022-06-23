@@ -1,0 +1,17 @@
+.oneDisplay{background:#ECEFF1}
+.oneDisplay_wrapper{min-height:auto}
+.oneDisplay_title_text{text-align:center}
+.oneDisplay_title_text h1{color:#000;margin-bottom:0;margin-top:140px;font-weight:600;font-size:68px}.oneDisplay_number h3{color:#000}.oneDisplay_btn{color:#000}.oneDisplay_menu .oneDisplay_nav ul li a{color:#000}.actor{padding:198px 0 0 0}
+.actor_text
+{
+    margin:80px 0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    font-weight: 100
+}
+.actor p{max-width:780px;color:#000}.aboutTheatre{padding:195px 0}.aboutTheatre_title{margin-left:224px;font-weight:700;font-size:37px;color:#000}.aboutTheatre_container{padding:0}.aboutTheatre_img h3{margin-top:5px;color:#000;font-weight:100;font-size:15px}.aboutTheatre_text{max-width:660px}
+/*# sourceMappingURL=people.min.css.map */

@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;600;700;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&display=swap')
+
+$FirstColor: #3B5E8C
+$SecondColor: #466FA6
+$ThirdColor: #92A5BD
+
+a,button
+	text-decoration: none
+.show
+	display: block
+.hide
+	display: none
+
+*
+	font-family: 'Overpass', sans-serif
+.container
+	margin: 0 auto
+	max-width: 1440px
+.oneDisplay
+	background: url('../img/index/1/bg.png')  center (center / cover) no-repeat
+	background-color: #18212D
+	&_wrapper
+		width: 100%
+		min-height: 1024px
+		
+	&_inner
+		display: flex
+		justify-content: space-between
+		padding: 62px 115px
+	&_logo
+	  
+	&_number
+		display: flex
+		img
+			width: 15px
+			height: 15px
+		h3
+			font-weight: 300
+			font-size: 13px
+	&_menu
+		position: relative
+		width: 150px
+		img
+			vertical-align: top
+		.oneDisplay_nav
+			transition: all 5s 
+			position: absolute
+			padding-top: 10px
+			ul
+				margin-left: 0px
+				padding-left: 0px       
+				li
+					list-style: none
+					a
+						display: block
+						background: none
+						border: none
+						text-transform: uppercase
+						color: #FFF
+						font-weight: 100
+						font-size: 13px
+	&_btn
+		padding: 0
+		background: none
+		border: none
+		text-transform: uppercase
+		color: #FFF
+		font-weight: 100
+		font-size: 13px
+	&_text
+		margin-top: 141px
+		text-align: center
+		
+		h1
+			margin-top: 41px
+			font-weight: 700
+			font-size: 56px
+		h2
+			font-size: 25px
+			font-weight: 100
+		button
+			color: #ECEFF1
+			font-weight: 500
+			font-size: 13px
+			padding: 10px 45px
+			background: none
+			border: 1px solid #ECEFF1
+			margin-top: 165px
+
+//  sale
+.sale
+	&_container
+		display: flex
+		justify-content: space-between
+	&_promo
+		min-width: 700px
+		display: flex
+		align-items: top
+		h3
+			margin: 40px 0 0 20px
+			font-weight: 500
+			font-size: 20px
+			color: #000
+	&_date
+		p
+			margin-top: 160px
+			font-weight: 100
+			font-size: 10px
+			color: #000
+
+// aboutTheatre
+.aboutTheatre
+	background-color: #ECEFF1
+	&_container
+		max-width: 1070px
+		margin: 0 auto
+		padding: 190px 0
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&_img
+		img
+			margin-top: 95px
+		h2
+			font-weight: 700
+			font-size: 37px
+			color: #000
+	&_text
+		max-width: 550px
+		text-align: center
+		h2
+			margin-top: 170px
+			font-weight: 700
+			font-size: 32px
+			color: #000
+		p
+			margin-top: 40px
+			font-weight: 100
+			font-size: 20px
+			color: #000
+	&_btn
+		margin-top: 105px
+		background: none
+		border: 0
+		border-bottom: 1px solid #000
+		color: #000
+
+// perfomance
+.perfomance
+	background-color: #ECEFF1
+	text-align: center
+	&_title
+		text-align: left
+		margin: 0 0 95px 225px
+		font-weight: 700
+		font-size: 37px
+		color: #000
+	button
+		margin-top: 75px
+		background: none
+		border: 0
+		border-bottom: 1px solid #000
+		color: #000
+	&_container
+		margin: 0 auto
+		max-width: 1200px
+		columns: 4
+	&_containerOnce
+		h2
+			font-weight: 100
+			font-size: 15px
+			color: #000
+	&_text
+		margin-top: 10px
+		display: flex
+		img 
+			vertical-align: top
+			width: 20px
+			height: 20px
+		h2
+			margin-bottom: 30px
+
+
+// mission
+.mission
+	background-color: #ECEFF1
+	display: flex
+	align-items: center
+	&_container
+		padding: 330px 0
+		max-width: 960px
+		text-align: center
+		h2
+			font-weight: 400
+			font-size: 17px
+			color: #000
+			margin: 0
+.actor
+	background-color: #ECEFF1
+	padding-bottom: 195px
+	text-align: center
+	h2
+		text-align: left
+		margin-left: 224px
+		font-weight: 700
+		font-size: 37px
+		color: #000
+	&_container1 , &_container2
+		display: flex
+		justify-content: center
+		text-align: left
+		.first_photo
+			margin-left: 0
+	&_containerOnce
+		margin: 34px 0 0 27px
+		.actor_containerOnce_textSecond
+			margin-top: 0
+		h2
+			margin: 10px 0 0 0 
+			font-weight: 100
+			font-size: 16px
+			color: #000
+	.btn
+		margin-top: 105px
+		background: none
+		border: 0
+		border-bottom: 1px solid #000
+		color: #000
+// footer
+.footer
+	background: #18212D
+	&_container
+		text-align: center
+		margin: 0 auto
+		padding: 106px 325px
+		img
+			margin-top: 70px
+	&_addres
+		margin-top: 60px
+		h3
+			font-weight: 100
+			font-size: 17px
+			color: #ECEFF1	
+	&_number
+		margin-top: 40px
+		h3
+			font-weight: 300
+			font-size: 17px	
+			color: #ECEFF1
+	&_nav
+		margin-top: 85px
+		.footer_btn
+			margin-right: 0
+		button
+			margin-right: 38px
+			margin-top: 105px
+			background: none
+			border: 0
+			border-bottom: 1px solid #FFF
+
+	&_date
+		margin-top: 75px
+		font-weight: 300
+		font-size: 12px
+		color: #FFF
+
+
+
+// slider
+.slider_container
+	background: #ECEFF1
+.slider
+	padding-bottom: 200px
+.slider_container
+	.slider_title
+		font-weight: 700
+		font-size: 37px
+		color: #000
+		margin: 0 0 95px 224px
+
+.slick-prev,.slick-next 
+	width: 50px
+	height: 50px
+	z-index: 5
+  
+.slider .slide img
+	margin: 0 auto
+	border-radius: 10px
+.slider .slide h2
+	margin: 20px 0 0 305px 
+	font-weight: 100
+	font-size: 15px
+	color: #000
+.slider .slide .last
+	margin-top: 5px
+.slick-prev,.slick-prev:hover,.slick-prev:focus,.slick-prev:before
+	top: 30%
+	left: 100px
+	background: url('../icons/switch1.png') center (center / cover) no-repeat
+	content: none
+  
+
+.slick-next,.slick-next:hover,.slick-next:focus,.slick-next:before
+	top: 30%
+	right: 100px
+	background: url('../icons/switch2.svg') center (center / cover) no-repeat
+	content: none
+  
